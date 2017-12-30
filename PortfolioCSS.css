@@ -454,7 +454,7 @@ button:active {
 	position: absolute;
 	top:0;
 	left:0;
-	width: 100%;
+	width: 10000px;
     height: 215px;
     background: red; /* For browsers that do not support gradients */
     background: linear-gradient(rgba(45,26,156,1), rgba(255,0,0,0)); /* Standard syntax (must be last) */
