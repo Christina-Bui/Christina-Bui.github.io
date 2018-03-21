@@ -1,76 +1,196 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Profile</title>
 	
-	<link href="PortfolioCSS.css" type="text/css" rel="stylesheet" />
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects</title>
+	
+	<link href="Style.css" type="text/css" rel="stylesheet" />
 	
 </head>
 
 <body>
 	
-	<div id="grad1"></div>
 	
+	<video autoplay muted loop id="myVideo"><source src="Sky.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.</video>
+	  
+  <header id="myheader">
+    <div class="container">
+        <h1>
+          Christina Bui - Designer, Researcher, Student
+        </h1>
+		  
+	<nav id="nav">
+      <ul>  
+		  
+            <li><a href="#container">Projects</a></li>
+            <li><a href="Resume.pdf" target="_blank">Resume</a></li>
+		  <li><button id = "myBtn">About</button></li>
+		  
+		  
+		  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+	<h2>Hi!</h2>
+    <p>I'm a fourth-year Computational Media student at Georgia Tech. I love visual/interaction design, art, and user research. My hope is to be able to work in one of those fields. Feel free to shoot me and email at cbui6@gatech.edu!</p>
+  </div>
+
+</div>  
+		  
+		  
+          </ul>
+        </nav>
+      </div>
+    </header>
+	  
 	<div id = "wrapper">
-		
-		
-		
-		<div id="topbar">
-			<h1>Christina Bui</h1>
-			<h2 id = "desc">designer. storyteller. student.</h2>
-
-				<div id="menu-outer">
-					<div class="table">
-						<u1 id="navgation">
-							<li><a href="index.html"><button>Profile</button></a></li>
-							<li><a href="Resume.html"><button>Resume</button></a></li>
-							<li><a href="Projects.html"><button>Portfolio</button></a></li>
-						</u1>
-					</div>
+	
+	<div class = "projects">
+		<div class="row"> 
+		  <div class="column">
+			  
+			  
+			  <div class = "container" id = "container">
+					<a id = "link3" href = "Le Cygne Process Book.pdf" target="_blank"><img src="Le Cygne Logo (Vers 2).png"  onclick="onClick(this)" class = "image" style="width:100%"></a>
+					<div class = "middle">
+						<div id = "projecttext1">  
+							<a> Le Cygne Bakery</a>
+						</div>
+						
 				</div>
-			</div>
-		
-	
-			<img id = "me" src = "Tea.png" style="width:360px;height:500px">
-	
+		  </div>
 
+		 		  
+		  </div>
+			
+		  <div class="column">
+			  
+			  <!-- MODAL BOX FOR DOTTED -->
+			  <div class = "container">
+				<a id = "link2" href ="https://youtu.be/HB-fDZ6FE1s" target="_blank"><img src="Dotted.gif" class = "image" style="width:100%" onclick="onClick(this)"></a>
+					<div class = "middle">
+						<div class = "projecttext">  
+							<a> Dotted </a>
+						</div>
+						
+					</div>
+			  </div>
+			  
+			  <div class = "container">
+					<a id = "link3" href = "HopOn! Design.pdf" target="_blank"><img src="HopOn Orange Logo.png"  onclick="onClick(this)" class = "image" style="width:100%"></a>
+					<div class = "middle">
+						<div id = "projecttext2">  
+							<a> HopOn! UI Design</a>
+						</div>
+						
+				</div>
+		  </div>
 
-		<div id = "aboutbox">
-			<p id="about">I'm kind of all over the place. I love to explore
-				and try new things. As a student, this means taking an interest in
-				a variety of subjects ranging from ancient Greek to planet formation
-				to music theory. As a person, this means being open to new experiences,
-				especially ones that wouldn't normally be considered positive and
-				finding the positivity in them. I'm the only person I know who
-				would laugh at getting a flat tire.
+			  
+		  </div> 
+			
+		<div class="column">
+				
+			<div class = "container">
+					<a id = "link3" href = "P2 Final.pdf" target="_blank"><img src="Logo.png"  onclick="onClick(this)" class = "image" style="width:100%"></a>
+					<div class = "middle">
+						<div id = "projecttext3">  
+							<a> Learn-A-Latte </a>
+						</div>
+						
+				</div>
+		  </div>
+			
+			
+			<div class = "container">
+				<a id = "link2" href ="https://www.youtube.com/watch?v=D4xUlNPf0tU" target="_blank"><img src="Visual Music.gif" class = "image" style="width:100%" "height: 100" onclick="onClick(this)"></a>
+					<div class = "middle">
+						<div id = "projecttext4">  
+							<a> Visual Music </a>
+						</div>
 
-			</p>
-
-			<p id="about"> My passion for design stems from this positivity. For a long
-				time, the idea of pursuing an artistic career path was very unrealistic, but
-				I was adamant in finding a way to make that fantasy reality. Today, I've made
-				it so that I can be a designer without anything in my way.</p>
-
-			<p id="about"> When I'm not watching tutorials, you can find me having a hot cup of
-				Earl Grey in my room.</p>
+					</div>
+			  </div>
 		</div>
-	
+			
+		<div class="column">
+
+		<div class = "container">
+				<a id = "link3" href = "Christina Bui - Project 1 Process Book Draft 3.pdf" target="_blank"><img src="Prototype 1.jpg"  onclick="onClick(this)" class = "image" style="width:100%"></a>
+				<div class = "middle">
+					<div id = "projecttext5">  
+						<a> Plane Ticket Redesign </a>
+					</div>
+			</div>
+	  	</div>
+		</div>
+		</div>
+		
+		</div>
 	</div>
 	
-	<style>
-		::-moz-selection { /* Code for Firefox */
-
-			background: #6fd8d3;
-		}
-
-		::selection {
-
-			background: #6fd8d3;
-		}
-		
-</style>
 	
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+			  // Prevent default anchor click behavior
+			  event.preventDefault();
+
+			  // Store hash
+			  var hash = this.hash;
+
+			  // Using jQuery's animate() method to add smooth page scroll
+			  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				// Add hash (#) to URL when done scrolling (default click behavior)
+				window.location.hash = hash;
+			  });
+			} // End if
+		  });
+		});
+	</script>
+	
+	
+	<script>
+
+		var modal = document.getElementById('myModal');
+
+
+		var btn = document.getElementById("myBtn");
+
+
+		var span = document.getElementsByClassName("close")[0];
+
+
+		btn.onclick = function() {
+			modal.style.display = "block";
+		}
+
+
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+
+
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+
+
 </body>
 </html>
