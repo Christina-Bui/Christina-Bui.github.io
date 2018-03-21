@@ -119,7 +119,7 @@ margin: 0 auto; /*this will centralize the div, horizontal. so that it is nice l
 
 
 .projects{
-	position: absolute;
+	position: relative;
 	margin-top: -40px;
 	margin-bottom: 150px;
     top: 100vh;
