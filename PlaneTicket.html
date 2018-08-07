@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	
+<head>
+<meta charset="utf-8">
+	<title>Plane Ticket Re-Design</title>
+		<link href="styleAlpha.css" type="text/css" rel="stylesheet" />
+		<script type = "text/javascript">
+			$(window).on("scroll", function() {
+				if($(window).scrollTop()) {
+					$("nav").addClass("black");
+				} else {
+					$("nav").removeClass("black");
+				}
+			})
+		</script>
+</head>
+
+<body>
+	
+	<div class = "wrapper">
+			<nav class = "nav2">
+				<div>
+						<a class = "name2" href="index.html">Christina Bui</a>
+				</div>
+				<ul>
+					<li><a class = "hvr-underline-reveal2" href="index.html">Projects</a></li>
+					<li><a class = "hvr-underline-reveal2" href="Resume.pdf" target="_blank">Resume</a></li>
+					<li><a class = "hvr-underline-reveal2" href="About.html">About</a></li>
+			  </ul>
+			</nav>
+</div>
+	
+<h2 class = "projTitle">Plane Ticket Re-Design</h2>
+
+	
+	<p class = "projDesc4">In my interaction design course, I was to team up with a partner and choose an informational artifact to re-design. Our artifact of choice was a plane ticket. Since the only one we had on hand was a Spirit Airlines ticket, we used it as our baseline. I’ve documented the whole project in a process book which you can find <a class = "linku" href="Christina Bui - Project 1 Process Book Draft 3.pdf" target="_blank">here</a>.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Plane Ticket/Spirit Boarding Pass.png">
+	
+	<p class = "projDesc3">The project was done over the course of five weeks. After working on our designs at home, we would bring our them in for critique every day. Through this consistent process of designing, critiquing, and reflecting, my partner and I quickly improved our design skills and were able to recognize our mistakes.</p>
+	
+	<p class = "projDesc3">We began by doing research on plane tickets to figure out the important parts to include in our design. We noticed that there was some information on the ticket that was not useful to the different stakeholders involved such as the traveler and the TSA agent. So we knew what we wanted to include on the design but not exactly how to place them. Our professor introduced design to us as a playful process, so I figured that it would be fun if we designed colorful tickets with lots of graphics on them.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Plane Ticket/Prototype 3.jpg">
+	
+	<p class = "projDesc3">This design in particular didn’t sit well with my professor, and for good reason. There wasn’t much thought behind that set of tickets. I had to learn to change the way I design, so I went back to the drawing board, prioritizing mindful designing.</p>
+	
+	<p class = "projDesc3">My partner and I began to slowly grasp the lessons that our professor was teaching us through their critiques. Additionally, they taught us about the grid and using lines to create eye movement which we attempted to use in our designs.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Plane Ticket/Prototype 5.jpg">
+	
+	<p class = "projDesc3">And we iterate again, eliminating color in the tickets; we found it unlikely that an airline would want to waste money on colored ink to print them. It’s here that we reach the framework of the final prototype.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Plane Ticket/Prototype 33.jpg">
+	
+	<p class = "projDesc3">We took the version of the ticket above and lessened the dark values on it for environmental purposes. We also re-organized some of the sections to make it more coherent for all of the users. Finally, we adjusted some the fonts that we used, to give the ticket a sense of friendliness and reliability.</p>
+	
+	<img class = "projPic4" src="Images/Projects/Plane Ticket/Prototype 1.jpg">
+	
+
+	
+<script>
+		$(document).on('click', 'a[href^="#"]', function(event) {
+			event.preventDefault();
+			
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 1000);
+		});
+		</script>
+		
+		
+		
+<script>
+			var timeOut;
+			function scrollToTop() {
+				if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+				window.scrollBy(0,-10);
+				timeOut=setTimeout('scrollToTop()', .25);
+			}
+				else clearTimeout(timeOut);
+			}
+		</script>
+		
+<script>document.body.className += ' fade-out';</script>
+		
+<script>
+			$(function() {
+				$('body').removeClass('fade-out');
+			});
+		</script>
+	
+</body>
+</html>
