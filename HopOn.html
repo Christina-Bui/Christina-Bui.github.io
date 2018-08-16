@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	
+<head>
+<meta charset="utf-8">
+	<title>HopOn!</title>
+		<link href="styleAlpha.css" type="text/css" rel="stylesheet" />
+		<script type = "text/javascript">
+			$(window).on("scroll", function() {
+				if($(window).scrollTop()) {
+					$("nav").addClass("black");
+				} else {
+					$("nav").removeClass("black");
+				}
+			})
+		</script>
+</head>
+
+<body>
+	
+	<div class = "wrapper">
+			<nav class = "nav2">
+				<div>
+						<a class = "name2" href="index.html">Christina Bui</a>
+				</div>
+				<ul>
+					<li><a class = "hvr-underline-reveal2" href="index.html">Projects</a></li>
+					<li><a class = "hvr-underline-reveal2" href="Resume 2.pdf" target="_blank">Resume</a></li>
+					<li><a class = "hvr-underline-reveal2" href="About.html">About</a></li>
+					</ul>
+			</nav>
+		</div>
+	
+	<h2 class = "projTitle">HopOn!</h2>
+	
+	
+	
+	<p class = "projDesc2">HopOn! is a travel planning app created by my junior design team for a client within the Georgia Tech Office of International Education. It is marketed towards students who are studying abroad as an easy-to-use platform for communication. We decided that this app needed to be made because one of my group mates made it apparent that there was no formalized system for travel planning for study abroad students. This often made travel plans convoluted, which is something that most would want to avoid, especially first-time travelers.</p>
+	
+	<p class = "projDesc3">With this in mind, we created the app with the users’ ease of use as a main priority.</p>
+	
+	<img class = "projPic3" src="Images/Projects/HopOn!/Login + Registration-01.png">
+	
+	<p class = "projDesc3">Our app has the ability to create trips and add an itinerary for said trip. From there, the trip owner can edit the trip and itinerary and even delete the trip if they no longer want to keep it. The information that a trip owner inputs can include budgets, housing, transportation, dates, locations, and descriptions. Once a trip is created, other users can ‘hop on’ to a trip to join it. This allows the guest user to be able to communicate with the trip owner and any other guests through our chat system which supports external chat links.</p>
+	
+	<img class = "projPic3" src="Images/Projects/HopOn!/Intinerary Mock-Up-01.png">
+	
+	<img class = "projPic3" src="Images/Projects/HopOn!/Your Trips + Trips-01.png">
+	
+	<p class = "projDesc3">In addition to creating trips and joining trips, users can also search for trips on the explore page. Since our app is catered towards Tech students, the featured trips on the explore page will consist mainly of study abroad trips at Tech. However, that is not to say that they will consist exclusively of Georgia Tech programs since any user can create their own trip for their own purposes.</p>
+	
+	<img class = "projPic3" src="Images/Projects/HopOn!/Card Mock-Up [Recovered]-01.png">
+	
+	<p class = "projDescEnd3">*Although the app has been initially developed by my team, it is unfinished. There is a possibility that future iterations of junior design teams will pick it up and develop it further.</p>
+	
+	<script>
+		$(document).on('click', 'a[href^="#"]', function(event) {
+			event.preventDefault();
+			
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 1000);
+		});
+		</script>
+		
+		
+		
+		<script>
+			var timeOut;
+			function scrollToTop() {
+				if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+				window.scrollBy(0,-10);
+				timeOut=setTimeout('scrollToTop()', .25);
+			}
+				else clearTimeout(timeOut);
+			}
+		</script>
+		
+		<script>document.body.className += ' fade-out';</script>
+		
+		<script>
+			$(function() {
+				$('body').removeClass('fade-out');
+			});
+		</script>
+	
+</body>
+</html>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+</body>
+</html>
