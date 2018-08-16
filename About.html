@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	
+<head>
+<meta charset="utf-8">
+	<title>About Me</title>
+		<link href="styleAlpha.css" type="text/css" rel="stylesheet" />
+		<script type = "text/javascript">
+			$(window).on("scroll", function() {
+				if($(window).scrollTop()) {
+					$("nav").addClass("black");
+				} else {
+					$("nav").removeClass("black");
+				}
+			})
+		</script>
+</head>
+
+<body>
+	
+	<div class = "wrapper">
+			<nav class = "nav2">
+				<div>
+						<a class = "name2" href="index.html">Christina Bui</a>
+				</div>
+				<ul>
+					<li><a class = "hvr-underline-reveal2" href="index.html">Projects</a></li>
+					<li><a class = "hvr-underline-reveal2" href="Resume 2.pdf" target="_blank">Resume</a></li>
+					<li><a class = "hvr-underline-reveal2" href="About.html">About</a></li>
+					</ul>
+			</nav>
+		</div>
+	
+	<h2 class = "projTitle">Hi there!</h2>
+	
+	<p class = "projDesc2">I'm currently a fourth-year Computational Media major at Georgia Tech.</p>
+
+	<p class = "projDesc3">While my work focuses on visual, interaction, and information design, I’m a forever student that’s always looking for the next big trend to rip apart. </p>
+
+	<p class = "projDescEnd2">When I’m not breaking things, you can find me in my room playing video games or <a class = "linku" href = "https://www.instagram.com/___bui___/"> drawing</a>. :D </p>
+	
+	<script>
+		$(document).on('click', 'a[href^="#"]', function(event) {
+			event.preventDefault();
+			
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 1000);
+		});
+		</script>
+		
+		
+		
+		<script>
+			var timeOut;
+			function scrollToTop() {
+				if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+				window.scrollBy(0,-10);
+				timeOut=setTimeout('scrollToTop()',10);
+			}
+				else clearTimeout(timeOut);
+			}
+		</script>
+		
+		<script>document.body.className += ' fade-out';</script>
+		
+		<script>
+			$(function() {
+				$('body').removeClass('fade-out');
+			});
+		</script>
+	
+</body>
+</html>
