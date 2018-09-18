@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	
+<head>
+<meta charset="utf-8">
+	<link rel="icon" href="Favicon-01.png">
+	<title>Rotten</title>
+		<link href="styleAlpha.css" type="text/css" rel="stylesheet" />
+		<script type = "text/javascript">
+			$(window).on("scroll", function() {
+				if($(window).scrollTop()) {
+					$("nav").addClass("black");
+				} else {
+					$("nav").removeClass("black");
+				}
+			})
+		</script>
+</head>
+
+<body>
+	
+	<div class = "wrapper">
+			<nav>
+				<div>
+						<a class = "name" href="#top" onclick= "scrollToTop();return false">christina bui | designer</a>
+				</div>
+				<ul>
+					<li><a class = "hvr-underline-reveal" href="#main">projects</a></li>
+					<li><a class = "hvr-underline-reveal" href="Resume 2.pdf" target="_blank">resume</a></li>
+					<li><a class = "hvr-underline-reveal" href="About.html">about</a></li>
+					</ul>
+			</nav>
+		</div>
+	
+	<h2 class = "projTitle">Rotten</h2>
+	
+	<h3 class = "projTitleSmall">visual design</h3>
+	
+	<!--<h3 class = "section">background</h3>-->
+	
+	<h3 class = "projSection">00. background</h3>
+	
+	<p class = "projDesc">Transitions and border crossings can take a number of different forms. They can be anything from waking up in the morning to traversing the boundaries of life and death. For this project, my groupmates wanted to center our designs around food, so for our initial theme, we chose “food as a portal to the past”. In other words, we wanted to capture the memories that well up when you smell a familiar dish. My first draft of the project showed the three steps of this process: seeing the food, smelling it, and experiencing the memory associated with it.</p>
+	
+	<h3 class = "projSection2">01. draft one</h3>
+	
+	<img class = "projPic3" src="Images/Projects/Rotten/Draft 1.jpg">
+	
+	<p class = "projDesc3">My first draft was critiqued with being too abstract and too impersonal. It was difficult to understand what the images meant and how they related to me on a deeper level, so I went back to the drawing board and tried to visualize food and time in different ways.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Rotten/Sketches.jpg">
+	
+	<p class = "projDesc3">Despite my efforts, none of these ideas satisfied me, so I consulted my groupmates and we all agreed that a change of theme was needed. From there, we decided to focus on “food and loss”. It was here that I experimented with the theme of rotting food; not only to explore the literal loss of the form and structure of food, but also the feeling of loss that such imagery would convey.</p>
+	
+	<h3 class = "projSection2">02. draft two</h3>
+	
+	<img class = "projPic3" src="Images/Projects/Rotten/Second Draft.jpg">
+	
+	<p class = "projDesc3">There were still some issues with this version of the design. I wanted to project feelings of loss and growth through the lines in the background of the main subject, the rotting strawberry while mapping out the process over time. I chose to do so by writing important personal dates on the top left corner of each panel, signifying loss, the passage of time, and rebirth, respectively; however, the dates were too small and were difficult to see, defeating the purpose of the temporal aspect of the map. So I tried again, simplifying the three panels into one for the final version of the project.</p>
+	
+	<h3 class = "projSection2">03. draft three</h3>
+	
+	<img class = "projPic3" src="Images/Projects/Rotten/First Final.jpg">
+	
+	<p class = "projDesc3">My first attempt at the final draft was crucial in nudging me towards a more robust actual final draft. In this version, I wanted to emphasize downward movement. I had abandoned the concept of rebirth from the previous draft because I thought that it would be too difficult to try to include all that I wanted to in this image. This particular draft was difficult to envision since I did not want to let go of a recurring smoke-like motif that appeared in several of my drafts. In past iterations, these lines were a strength, but trying to hold on so tightly to them in this draft was a weakness.</p>
+	
+	<h3 class = "projSection2">04. final draft</h3>
+	
+	<p class = "projDesc5">Once more, I created another iteration of my map; this time focusing only on downward motions. I did so by creating a dripping and pooling effect which emphasizes not only the loss of form but also the passage of time. These drops of rot are connected to particular dates as a sort of timeline. The dates are written in reverse order along the left side. I did this so that the audience could read the map from top to bottom or bottom to top. Additionally, the connection from the text to the images allows the map to be read from right to left or left to right as well.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Rotten/Timeline.jpg">
+	
+	<p class = "projDesc3">Ultimately, the map is the story of my personal journey after experiencing the loss of my grandmother. The bottom-most date is the date of her passing and the top-most date is my birthday; the dates in between those days are other birthdays or holidays. I included these points because they represented the beginning of my journey and its progress over time. Furthermore, I decided to bring back the concept of rebirth in this map not only because it is meaningful to me, but also because it completes the cycle of loss. It would be wrong not to include the steadfastness of the strawberry rising above its own rot.</p>
+	
+	<img class = "projPic4" src="Images/Projects/Rotten/LRM_EXPORT_64915728904676_20180916_110542436.jpeg">
+	
+	
+	
+	
+	
+	<script>
+		$(document).on('click', 'a[href^="#"]', function(event) {
+			event.preventDefault();
+			
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 1000);
+		});
+		</script>
+		
+		
+		
+		<script>
+			var timeOut;
+			function scrollToTop() {
+				if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+				window.scrollBy(0,-10);
+				timeOut=setTimeout('scrollToTop()', .25;
+			}
+				else clearTimeout(timeOut);
+			}
+		</script>
+		
+		<script>document.body.className += ' fade-out';</script>
+		
+		<script>
+			$(function() {
+				$('body').removeClass('fade-out');
+			});
+		</script>
+	
+</body>
+</html>
