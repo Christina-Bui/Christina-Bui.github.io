@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	
+<head>
+<meta charset="utf-8">
+	<link rel="icon" href="Favicon-01.png">
+	<title>Escalators</title>
+		<link href="styleAlpha.css" type="text/css" rel="stylesheet" />
+		<script type = "text/javascript">
+			$(window).on("scroll", function() {
+				if($(window).scrollTop()) {
+					$("nav").addClass("black");
+				} else {
+					$("nav").removeClass("black");
+				}
+			})
+		</script>
+</head>
+
+<body>
+	
+	<div class = "wrapper">
+			<nav>
+				<div>
+						<a class = "name" href="index.html">christina bui | designer</a>
+				</div>
+				<ul>
+					<li><a class = "hvr-underline-reveal" href="index.html">projects</a></li>
+					<li><a class = "hvr-underline-reveal" href="Resume 2.pdf" target="_blank">resume</a></li>
+					<li><a class = "hvr-underline-reveal" href="About.html">about</a></li>
+					</ul>
+			</nav>
+		</div>
+	
+	<h2 class = "projTitle">Escalators</h2>
+	
+	<h3 class = "projTitleSmall">project team | <a class = "linku" href="https://jihansherman.com/works/projects/escalators/" target = "_blank">Jihan Sherman</a>, <a class = "linku" href="https://keb61a8.myportfolio.com/shared-spaces-and-pathways" target = "_blank">Katherine Bennett</a>, <a class = "linku" href="https://anurajbh.com/design/accessalator/" target = "_blank">Anuraj Bhatnagar</a></h3>
+	
+	<h3 class = "projSection">00. background</h3>
+
+	<p class = "projDesc3">The goal of this project is to design an intervention for a particular transition space where transition space is defined as any space, physical or mental, that a transition may occur. The intervention should serve a number of purposes, which may include improving, probing, or challenging the space.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/escalator.gif">
+	
+	<h3 class = "projSection">01. brainstorming</h3>
+	
+	<p class = "projDesc3">During the initial phases of the project, we brainstormed improvements for all three choices of transition spaces we had to choose from: escalators, Starbucks stores, and crosswalks.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/brainstorming2.png">
+	
+	<p class = "projDesc3">We chose to explore escalators not only because they are obviously in the business of constant transitioning, but also because of the variety of complex interactions that can occur there. Specifically, we are engaging with escalators situated within MARTA stations to study the dynamic of a transitional space within a transitional space.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/escalatorcomposite.jpg">
+	
+	
+	<h3 class = "projSection">02. the kit of parts</h3>
+	
+	<p class = "projDesc3">Doraville, Midtown, Arts Center, and North Ave.: each of us chose a different MARTA station to explore. With each station, we were looking to examine what ways we could include principles such as autonomy and choice within our design intervention.</p>
+	
+	<p class = "projDesc5">I studied the Doraville MARTA station.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/doravillestation.jpg">
+	
+	<p class = "projDesc3">We recognized the power of the individual and shared experiences that occur there, so we wanted to design a kit of parts to honor those singular and collective perspectives.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/Kit.png">
+	
+	<p class = "projDesc3">The kit of parts we designed consists of four items: environmental projections, narrative displays, dimensional alternations, and topographical augmentations. True to the nature of the kit of parts, each of these interventions was meant to be interchangeable across all four escalators, and across all escalators in general.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/kitofparts.jpg">
+	
+	<p class = "projDesc3">Additionally, each of us wrote a story about our personal experiences with escalators as a means of creating interventions which could leverage others’ individual experience. This is mine:</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/story.png">
+	
+	<p class = "projDesc3">And from that story I created my component of the kit of parts: the narrative display.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/comic1.png">
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/comic2.png">
+	
+	<img class = "projPic2" src="Images/Projects/Escalators/comic projection.png">
+	
+
+	<h3 class = "projSection">03. projection</h3>
+	
+	<p class = "projDesc3">We progressed with our interventions, we recognized that there was a need for practicality. We wanted to present a solution that could be implemented in a timely and economical manner. All of us reflected on our kit of parts and decided that it would be beneficial we narrowed down our four solutions to a single solution which could be easily adapted to a multitude of escalators.</p>
+	
+	<p class = "projDesc5">After careful deliberation, we decided to focus on projections as a design intervention. Our precedents are works of public art, performance, and graffiti.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Escalators/precedents.jpg">
+	
+	<p class = "projDesc3">With these inspirations, we created projections which engage the shared and individual experiences of the MARTA escalators.</p>
+	
+	<img class = "projPic4" src="Images/Projects/Escalators/solutions.jpg">
+	
+	
+	
+	<script>
+		$(document).on('click', 'a[href^="#"]', function(event) {
+			event.preventDefault();
+			
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 1000);
+		});
+		</script>
+		
+		
+		
+		<script>
+			var timeOut;
+			function scrollToTop() {
+				if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+				window.scrollBy(0,-10);
+				timeOut=setTimeout('scrollToTop()', .25);
+			}
+				else clearTimeout(timeOut);
+			}
+		</script>
+		
+		<script>document.body.className += ' fade-out';</script>
+		
+		<script>
+			$(function() {
+				$('body').removeClass('fade-out');
+			});
+		</script>
+	
+</body>
+</html>
