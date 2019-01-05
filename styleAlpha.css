@@ -996,7 +996,6 @@ input[type=text], select {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: none;
   font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
   font-size: 14px;
   transition: 1s;
@@ -1027,6 +1026,20 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+  font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
+  font-size: 14px;
+  transition: 1s;
 }
 
 
