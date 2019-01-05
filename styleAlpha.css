@@ -1036,7 +1036,6 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: none;
   font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
   font-size: 14px;
   transition: 1s;
