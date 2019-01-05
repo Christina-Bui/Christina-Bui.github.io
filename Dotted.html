@@ -18,6 +18,11 @@
 				}
 			})
 		</script>
+	
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+	
 </head>
 
 <body>
@@ -25,35 +30,96 @@
 	<div class = "wrapper">
 			<nav>
 				<div>
-						<a class = "name" href="index.html">christina bui | designer</a>
+						<a class = "name" href="index.html">christina bui</a>
 				</div>
 				<ul>
 					<li><a class = "hvr-underline-reveal" href="index.html">projects</a></li>
-					<li><a class = "hvr-underline-reveal" href="Resume 2.pdf" target="_blank">resume</a></li>
-					<li><a class = "hvr-underline-reveal" href="About.html">about</a></li>
+					<li><a class = "hvr-underline-reveal" href="Resume.pdf" target="_blank">resume</a></li>
+					<li><a class = "hvr-underline-reveal" href="About.html">me</a></li>
 					</ul>
 			</nav>
 		</div>
 	
+	<div class = "projContainer">
+		<img  class ="projHeader" src="Images/Project Header Image/AngledZoom cropped.png">
+	</div>
+	
 	<h2 class = "projTitle">Dotted</h2>
 	
-	<h3 class = "projTitleSmall">data visualization</h3>
+	<h3 class="projTitleSmall3">Visualizing image data.</h3>
 	
-	<h3 class = "projSection">00. background</h3>
+	<h3 class = "projTitleSmall">Data Visualization | Interaction Design</h3>
 	
-	<p class = "projDesc3">In one of my classes, we were challenged to create a data visualization using images that my peers had collected over the course of two weeks. Each of us was required to take a single photograph whenever we completely an activity. The activity varied based on the person. Some people took a photo whenever they ate, while others took a photo whenever they walked up the stairs. Afterwards, we were to upload the images to Flickr so that our peers could use the data however they liked.</p>
 	
-	<img class = "projPic3" src="Images/Projects/Dotted/Sketches.jpg">
+
 	
-	<h3 class = "projSection">01. the product</h3>
+	<h3 class = "projSection">Introduction</h3>
+	
+	<p class = "projDesc3">In one of my classes, I was challenged to create a data visualization using images that my peers had collected over the course of two weeks.  We were to upload the images to Flickr so that we could use each other’s data as we liked. </p>
+	
+	
+	
+	
+	
+	<h3 class = "projSection">Interaction Goals</h3>
+	
+	<p class = "projDesc3">My goal was to incorporate some form of interaction in the visualization. I felt that this was a good way of allowing the user to explore the data by getting up close and personal. By being able to zoom in and out of the data, the user can perceive the data as both singular entities as well as a connected whole. Through this functionality, users can see trends, patterns, and anomalies. It also raises interesting questions such as “What time of day was this picture taken?” or “Why is this cluster of points all gray?”, which provide us with a glimpse of the photographers’ broader context.</p>
+	
+	
+	
+	
+	
+	<h3 class = "projSection">Sketches</h3>
+
+	
+	<img class = "projPic6" src="Images/Projects/Dotted/Sketches.jpg">
+	
+	<h3 class="projCap">Some possible visualization ideas.</h3>
+	
+	
+	
+	
+	
+	<h3 class = "projSection">Technical Process</h3>
+	
+	<p class = "projDesc3">To make this project, I used Processing and imported the images through the Flickr API. Then, I ran an image analysis algorithm on each image that gave me the average of its R, G, and B values. I took this average value and graphed it as a point on the visualization using their R, G, and B values as the x, y and z coordinates, respectively.</p>
+	
+	<img class = "projPic3" src="Images/Projects/Dotted/Color Sorting.png">
+	
+	<h3 class="projCap">Part of the color sorting algorithm.</h3>
+	
+	
+	
+	
+	
+	<h3 class = "projSection">Final Product</h3>
 	
 	<img class = "projPic2" src="Images/Projects/Dotted/AngledZoom.png">
 	
+	<h3 class="projCap">A still of Dotted.</h3>
+	
 	<iframe class = "vid" src="https://www.youtube.com/embed/HB-fDZ6FE1s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	
-	<p class = "projDesc3">For this project, I wanted to create something 3D and something interative. I felt that this was a good way of allowing the user to explore the data by getting up close and personal with it and to perceive it in a way that affords for greater depth than 2D perception. It was important to me to include this because it allows the user to understand the data as individual points rather than as a set. While the visualization does not show the images explicitly, it offers an insight to them because of each individual data point’s color and raises questions such as “What time of day was this picture taken?” or “What this picture taken outside?”. I also thought that centering the visualization on color would show possible trends and patterns in peoples’ lives and possible tell a story about their interactions and environment.</p>
+	<h3 class="projCap">Project demo.</h3>
 	
-	<p class = "projDescEnd2">In order to make this project, I used Processing. With acquiring my peers’ images, I utilized the Flickr API, imported them to Processing, and ran an image analysis algorithm on each image that gave me the average of its R, G, and B values. I took this average value as a single point on the visualization which served to represent each image. The points were then graphed on to the 3D space using their R, G, and B values as the x, y and z coordinates, respectively.</p>
+	
+	
+	
+	
+	<h3 class = "projSection">What's Next?</h3>
+	
+	<p class = "projDescEnd">If I were to return to this project, the first thing I would do is add some functionality that allows users to see individual images and their metadata to see the whole story behind the images. I would also add a panning functionality for more user control over the visualization.</p>
+	
+	
+	<div class="projLinks">
+		  	<h3 class = "projectLinks"><a class = "linku" href="index.html">All</a> &#8226;   <a class = "linku" href="berrycords.html">berrycords</a> &#8226; <a class = "linku" href="Learn-A-Latte.html">Learn-A-Latte</a>  &#8226; <a class = "linku" href="Portfolio.html">Personal Portfolio</a>	&#8226; <a class = "linku" href="PlaneTicket.html">Ticket Mastered</a> &#8226; <a class = "linku" href="Escalators.html">Escalators</a></h3>
+	</div>
+	
+	
+	<div class="footer">
+		  	<h3 class = "footerFront">Copyright © Christina Bui 2019</h3>
+	</div>
+	
 	
 	<script>
 		$(document).on('click', 'a[href^="#"]', function(event) {
