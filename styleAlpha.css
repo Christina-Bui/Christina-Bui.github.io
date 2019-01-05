@@ -988,7 +988,7 @@ body.fade-out {
 
 
 
-input[type=text], select, textarea {
+input[type=text], select {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
