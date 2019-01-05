@@ -56,15 +56,19 @@
 	
 	<div class="container">
 	
-		<form method="POST" action="http://formspree.io/christinabui801@gmail.com">
+		<form action="http://formspree.io/christinabui801@gmail.com" method="POST">
 		
 			<label for="fname">Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your Name" >
+			<input type="text" id="fname" name="firstname" placeholder="Your name" required>
+			
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your email" required>
 
 			<label for="sub">Subject</label>
-			<input type="text" id="sub" name="subject" placeholder="Message Subject">
+			<input type="text" id="sub" name="subject" placeholder="Message subject" required>
 
 			<label for="mess">Message</label>
+			<textarea placeholder="Type your message here" tabindex="5" required></textarea>
 			
 			<input type="submit" value="Send">
 			
