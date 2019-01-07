@@ -1189,9 +1189,9 @@ label {
 
 
 .nav {
-  height: 12%;
+  height: 10%;
   width: 100%;
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: #333;
   position: fixed;
   text-decoration: none;
   z-index: 10;
@@ -1212,7 +1212,7 @@ label {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  padding: 3% 3% 10px 4%;
+  padding: 2% 3% 10px 4%;
 }
 
 .name {
@@ -1236,7 +1236,7 @@ label {
   float: right;
   font-size: 18px;
   text-decoration: none;
-  padding: 2% 4% 0px 0px;
+  padding: 1% 4% 0px 0px;
 }
 
 .nav > .nav-links > a {
