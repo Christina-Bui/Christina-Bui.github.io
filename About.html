@@ -12,30 +12,31 @@
 	<title>About Me</title>
 		<link href="styleAlpha.css" type="text/css" rel="stylesheet" />
 	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script type = "text/javascript">
-			$(window).on("scroll", function() {
-				if($(window).scrollTop()) {
-					$("nav").addClass("black");
-				} else {
-					$("nav").removeClass("black");
-				}
-			})
-		</script>
+
 </head>
 
 <body>
 	
-	<div class = "wrapper">
-			<nav>
-				<div>
-						<a class = "name" href="index.html">christina bui</a>
-				</div>
-				<ul>
-					<li><a class = "hvr-underline-reveal" href="index.html">projects</a></li>
-					<li><a class = "hvr-underline-reveal" href="Resume.pdf" target="_blank">resume</a></li>
-					<li><a class = "hvr-underline-reveal" href="About.html">me</a></li>
-					</ul>
-			</nav>
+	<div class="nav">
+		  <div class="nav-header">
+			<div class="nav-title">
+			  <a class = "name" href="index.html" >christina bui</a>
+			</div>
+		  </div>
+		  <div class="nav-btn">
+			<label for="nav-check">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</label>
+		  </div>
+			
+		  <input type="checkbox" id="nav-check">
+		  <div class="nav-links">
+				<a class = "hvr-underline-reveal" href="index.html">projects</a>
+				<a class = "hvr-underline-reveal" href="Resume.pdf" target="_blank">resume</a>
+				<a class = "hvr-underline-reveal" href="About.html">me</a>
+		  </div>
 		</div>
 	
 	<h2 class = "projTitle3">Hi there!</h2>
@@ -95,18 +96,6 @@
 		});
 		</script>
 		
-		
-		
-		<script>
-			var timeOut;
-			function scrollToTop() {
-				if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
-				window.scrollBy(0,-10);
-				timeOut=setTimeout('scrollToTop()',10);
-			}
-				else clearTimeout(timeOut);
-			}
-		</script>
 		
 		<script>document.body.className += ' fade-out';</script>
 		
