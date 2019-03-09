@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 
@@ -31,13 +31,12 @@ html, body {
 	height:100%;
 	width:100%;
 	margin:auto;
-	background: repeating-radial-gradient(
-  circle,
-  white,
-  white 300px,
-  #D9FF5A 30px, 
-  white 500px
-);
+    background: -webkit-gradient(linear, 0%, 0%, 100%, 100%, from(black), to(white));
+  background: -webkit-linear-gradient(top, black, white);
+  background: -moz-linear-gradient(top, black, white);
+  background: -ms-linear-gradient(top, black, white);
+  background: -o-linear-gradient(top, black, white);
+  background: linear-gradient(top, black, white);
 	
 	
 	display: table;
@@ -62,13 +61,13 @@ html, body {
 }
 
 .content h1 {
-	font-family: 'Lora', serif;
-	font-weight: bold;
+	font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
+	font-weight: 100;
 	font-size: 150%;
 	text-align: center;
 	vertical-align: middle;
 	border: 0;
-	color: #2C2C2C;
+	color: white;
 
 }
 
@@ -138,11 +137,11 @@ nav {
 	box-sizing: border-box;
 	height: 57px;
 	transition: 1s;
-	background: rgba(0, 0, 0, 0.8);
+	background: black;
 }
 
 nav.black {
-	background: rgba(0, 0, 0, 0.8);
+	background: black;
 	height: 95px;
 	padding: 0px 15px;
 }
@@ -167,7 +166,7 @@ nav.black {
   left: 50%;
   transform: translate(-60%, -50%);
   font-size: 40px;
-  font-family: 'Lora', serif;
+  font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
   font-weight: bold;
   color: white;
   text-align: left;
@@ -181,7 +180,7 @@ nav.black {
 	padding: 70px 0px 0px 20%;
 	height: 0px;
 	float: left;
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
 	font-weight: bold;
 	font-size: 36px;
 	transition: 1s;
@@ -206,7 +205,7 @@ nav.black {
 	padding: 110px 0px 0px 20%;
 	height: 0px;
 	float: left;
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
 	font-weight: bold;
 	font-size: 36px;
 	transition: 1s;
@@ -417,7 +416,7 @@ nav.black {
 	padding: 0px 20% 0px ;
 	width: 100%;
 	float: left;
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
 	font-style: italic;
 	font-size: 20px;
 	transition: 1s;
@@ -430,7 +429,7 @@ nav.black {
 	padding: 10px 20% 0px ;
 	width: 100%;
 	float: left;
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
 	font-style: italic;
 	font-size: 20px;
 	transition: 1s;
@@ -469,7 +468,7 @@ nav.black {
 	padding: 20px 20% 70px ;
 	width: 100%;
 	float: left;
-	font-family: 'Lora', serif;
+	font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
 	font-style: italic;
 	font-size: 20px;
 	transition: 1s;
@@ -909,7 +908,7 @@ body.fade-out {
 	padding: 5px 0px 0px ;
 	height: 0px;
 	float: left;
-	font-family: 'Lora',serif;
+	font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
 	font-weight: bold;
 	font-size: 36px;
 	transition: 1s;
@@ -955,8 +954,8 @@ body.fade-out {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-left: 2px solid #1A1A1A;
+  border-bottom: 2px solid #1A1A1A;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb04 2s infinite;
@@ -1191,7 +1190,7 @@ label {
 .nav {
   height: 10%;
   width: 100%;
-  background-color: #333;
+  background-color: #1A1A1A;
   position: fixed;
   text-decoration: none;
   z-index: 10;
