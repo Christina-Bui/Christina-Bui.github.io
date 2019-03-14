@@ -9,7 +9,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-size: calc(0.6em + 1vw);
-	background-color: #E2E2E2;
+	background-color: #F5F5F5;
 	
 }
 
@@ -63,7 +63,7 @@ html, body {
 	text-align: center;
 	vertical-align: middle;
 	border: 0;
-	color: #E2E2E2;
+	color: #F5F5F5;
 
 }
 
@@ -101,11 +101,11 @@ html, body {
 /*Text Selection*/
 ::selection {
   background: #AECC48; /* WebKit/Blink Browsers */
-  color:#E2E2E2;
+  color:#F5F5F5;
 }
 ::-moz-selection {
   background: #AECC48; /* Gecko Browsers */
-  color:#E2E2E2;
+  color:#F5F5F5;
 }
 
 
@@ -164,7 +164,7 @@ nav.black {
   font-size: 40px;
   font-family: 'Open Sans', 'Open Sans Extrabold', 'Open Sans Light', 'Open Sans Semibold', sans-serif;
   font-weight: bold;
-  color: #E2E2E2;
+  color: #F5F5F5;
   text-align: left;
   margin: 0px 0px;
 	
@@ -834,7 +834,7 @@ h1 {
 
 /* Project Content */
 .projects {
-    background-color: #E2E2E2;
+    background-color: #F5F5F5;
     padding: 0px;
 	margin-top: 0px;
 	margin-bottom: 5px;
