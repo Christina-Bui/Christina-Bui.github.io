@@ -193,6 +193,7 @@ html, body {
 .landing {
   position: relative;
   z-index: 10;
+  text-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey;
 }
 
 /*Text Selection*/
