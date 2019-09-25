@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.js"></script>
+
+	
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="Favicon-01.png">
+	<title>GrooveMachine</title>
+		<link href="styleAlpha.css" type="text/css" rel="stylesheet" />
+	
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+	
+</head>
+
+<body>
+	
+	<div class="nav">
+		  <div class="nav-header">
+			<div class="nav-title">
+			  <a class = "name" href="index.html" >christina bui</a>
+			</div>
+		  </div>
+		  <div class="nav-btn">
+			<label for="nav-check">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</label>
+		  </div>
+			
+		  <input type="checkbox" id="nav-check">
+		  <div class="nav-links">
+				<a class = "hvr-underline-reveal" href="index.html">projects</a>
+				<a class = "hvr-underline-reveal" href="Resume.pdf" target="_blank">resume</a>
+				<a class = "hvr-underline-reveal" href="About.html">me</a>
+		  </div>
+		</div>
+	
+
+	<div class = "projContainer">
+		<img  class ="projHeader" src="Images/Project Header Image/gm test-01.jpg" >
+	</div>
+
+
+	
+	<div class = "Proj"></div>
+	<h2 class = "projTitle">GrooveMachine</h2>
+	
+	<h3 class="projTitleSmall3">Code meets music.</h3>
+	
+	<h3 class = "projTitleSmall">UI Design | UX Design | Graphic Design</h3>
+	
+	
+	
+	
+	<h3 class = "projSection">Introduction</h3>
+
+	<p class = "projDesc3">GrooveMachine is a physical artifact that uses music as a metaphor to teach kids about coding. It's a table where people can place tangible pieces onto its surface. The center octagonal hub serves as a step sequencer, which causes the tangibles to play a music sample when their section is passed over. My task was to bring this project into the digital realm by re-designing its web UI and UX.</p>
+
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/GM1.jpg">
+	
+	<h3 class="projCap">Using the GrooveMachine.</h3>
+	
+	
+	
+	
+	<h3 class = "projSection">What It Used to Be</h3>
+
+	<img class = "projPic6" src="Images/Projects/GrooveMachine/Web UI.png">
+	
+	<h3 class="projCap">The previous web version of GrooveMachine.</h3>
+	
+	<p class = "projDesc3">Everyone agreed that GrooveMachine's website needed a facelift. However, the developers didn't want the overall functionality of the site to change. So I set out to make changes to the look of the website first before I made any suggestions on its interactions.</p>
+	
+	
+	
+	
+	
+	
+	<h3 class = "projSection">New Layout</h3>
+	
+	<p class = "projDesc3">My first move was to experiment with different layouts. I made three different wireframes that kept the tangible drawers, volume and tempo settings, and "Save" button. One functionality I did add was the "Help" button, which I thought was crucial for new users since this app had somewhat of a learning curve.</p>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/UI Mockups.png">
+	
+	<h3 class="projCap">Each column is a possible layout.</h3>
+	
+	
+	
+	
+	<h3 class = "projSection">Jumping In</h3>
+	
+	<p class = "projDesc3">We went with the layout with the navigation bar at the top of the webpage since it offered the most real estate for the sequencer in the center.</p>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/GM V1.png">
+	
+	<h3 class="projCap">Dedicating as much space to the center sequencer as possible.</h3>
+
+	<p class = "projDesc3">I also made menus and settings appear off to the side so that users can still see main action of the app.</p>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/GM Menu V1.png">
+	
+	<h3 class="projCap">Menus do not overlap with the sequencer.</h3>
+
+
+	
+	
+	
+	
+	<h3 class = "projSection">Audio Visualization</h3>
+	
+	<p class = "projDesc3">One major part of the GrooveMachine web app was the audio visualization. It's one of the factors that distinguish it from the physical version. The audio vis allows users to "see" the sounds that they're making so they can make a mental connection between the two.</p>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/AV Concepts.png">
+	
+	<h3 class="projCap">Several audio vis concepts the symbols on the top left indicate direction of movement.</h3>
+
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/AV Skinned V1.png">
+	
+	<h3 class="projCap">Some of the fan favorites with the first color palette applied.</h3>
+	
+	
+	
+	
+	
+	<h3 class = "projSection">Code Visualization</h3>
+	
+	<p class = "projDesc3">Another important component of GrooveMachine was the code visualization. This was a way for the user to see their actions translated into code. It was updated every time a change was made to the configuration of the table. The web version needed to have something like that too.</p>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Old Code Vis.jpg">
+	
+    <h3 class="projCap">The physical version of GrooveMachine had the code vis on a separate screen.</h3>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Code Vis V1.png">
+	
+	<h3 class="projCap">The bottom left box shows the "global" table status. The eight smaller boxes show the "local" octant statuses.</h3>
+	
+	
+	
+	<h3 class = "projSection">Tangibles</h3>
+	
+	<p class = "projDesc3">For each tangible I designed an unselected, inactive, and active state. The unselected state indicates that the tangibles were still in the drawers, not yet moved. The inactive state indicates that the tangible has been manipulated and placed onto the table, but not yet passed over by the step sequencer. The active state indicates that the tangible has been manipulated and that it is currently being "activated" by the step sequencer and producing a sound.</p>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Tangible States.png">
+	
+	<h3 class="projCap">The different tangible states.</h3>
+	
+	<p class = "projDesc3">The blue tangibles have circular markings on them to indicate that they are "connector" tangibles. In other words, the blue tangibles produce the main sounds. The red, orange, green, and yellow tangibles are "modifier" tangibles. They're meant to connect to the connector tangibles and modify the main sound, like audio effects.</p>
+
+
+
+
+
+
+	<h3 class = "projSection">Re-Skinning</h3>
+	
+	<p class = "projDesc3">I started to experiment with brighter color palettes because the UI was a bit too dark.</p>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Color Variations 1.png">
+	
+	<h3 class="projCap">Playing around with sequencer colors.</h3>
+
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Color Variations 2.png">
+	
+	<h3 class="projCap">Applying color palettes to the background and other UI elements.</h3>
+	
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Final Color.png">
+	
+	<h3 class="projCap">This one felt the most appealing.</h3>
+
+
+
+
+
+	<h3 class = "projSection">Bottom Menu</h3>
+
+	<p class = "projDesc3">A bottom menu was added because of important additional functionalities that weren't present in the previous version of the web app. The "Direction" and "Sample Pack" settings were added since they were a crucial part of the table. "Direction" changes the direction of the step sequencer, while "Sample Pack" changes the genre of sounds that are played (i.e. Mariachi, Acoustic, Hip Hop, etc.).</p>
+
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Bottom Menu.png">
+	
+	<h3 class="projCap">All of the options laid out.</h3>
+
+
+
+
+
+
+	<h3 class = "projSection">Onboarding</h3>
+
+	<p class = "projDesc3">The last major part I designed was the onboarding screen. This part was tricky because I wanted to give the user enough information but not to overwhelm them. I decided to do a semi-transparent screen overlay with simple instructions regarding each button.</p>
+
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Onboarding.png">
+	
+	<h3 class="projCap">Instructions on how to use GrooveMachine.</h3>
+
+
+
+
+
+	<h3 class = "projSection">Making Accessories</h3>
+
+	<p class = "projDesc3">I also made a loading screen for the app.</p>
+
+	<img class = "projPic3" src="Images/Projects/GrooveMachine/Loading.gif">
+	
+	<h3 class="projCap">Fun times ahead!</h3>
+
+	<p class = "projDesc3">And I designed some large scale informational <a class = "linku3" href="Images/Projects/GrooveMachine/Posters.pdf" target = "_blank">posters</a> to go along with a museum exhibition of the physical version of GrooveMachine and a <a class = "linku3" href="Images/Projects/GrooveMachine/Style Guide.pdf" target = "_blank">style guide</a>.</p>
+
+
+
+
+	
+	
+	<h3 class = "projSection">What's Next?</h3>
+	
+	<p class = "projDescEnd5">I'd want to conduct some user studies on the web app to see what users of our target demographic think and feel when using it. I'd also like to do a comparative analysis of the web version and the physical version to see how the different experiences compare to each other.</p>
+	
+	<div class="content3">
+		<a class = "projButton" href="https://groove-machine-web.herokuapp.com/" target = "_blank">View Full Project</a>
+	</div>
+	
+	
+	<div class="projLinks">
+		  	<h3 class = "projectLinks"><a class = "linku4" href="index.html">All</a> &#8226; <a class = "linku4" href="GrooveMachine.html">GrooveMachine</a> &#8226; <a class = "linku4" href="Portfolio.html">Personal Portfolio</a> &#8226; <a class = "linku4" href="Learn-A-Latte.html">Learn-A-Latte</a> &#8226;   <a class = "linku4" href="PlaneTicket.html">Ticket Mastered</a></h3>
+		  	<h3 class ="projectLinks2"><a class = "linku4" href="HeartSense.html">HeartSense</a> &#8226; <a class = "linku4" href="berrycords.html">berrycords</a> &#8226; <a class = "linku4" href="Dotted.html">Dotted</a> &#8226; <a class = "linku4" href="https://www.behance.net/christinab4e77" target="_blank">Graphic Design + Art</a></h3>
+	</div>
+	
+	
+	<div class="footer">
+		  	<h3 class = "footerFront2">Copyright © Christina Bui 2019</h3>
+	</div>
+	
+<script>
+		$(document).on('click', 'a[href^="#"]', function(event) {
+			event.preventDefault();
+			
+			$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 1000);
+		});
+		</script>
+		
+		
+		<script>document.body.className += ' fade-out';</script>
+		
+		<script>
+			$(function() {
+				$('body').removeClass('fade-out');
+			});
+		</script>
+	
+</body>
+</html>
