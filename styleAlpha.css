@@ -113,10 +113,10 @@ html, body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ff6a00, #ee0979);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 600px;
-  height: 600px;
-  margin-left: -300px;
-  margin-top: -300px;
+  width: 50%;
+  height: 100%;
+  margin-left: -25%;
+  margin-top: -25%;
   transform-origin: 50% 48%;
   border-radius: 43%;
   animation: drift 3000ms infinite linear;
