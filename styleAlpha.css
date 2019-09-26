@@ -98,7 +98,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: auto;
-  background: linear-gradient(360deg, #e47f56, #ad4d75, #f16767, #ff6550);
+  background: linear-gradient(360deg, #ad4d75, #e47f56, #f16767, #ff6550);
   background-size: 800% 800%;
 
   -webkit-animation: AnimationName 30s ease infinite;
