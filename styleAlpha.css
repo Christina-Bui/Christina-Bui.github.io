@@ -9,10 +9,6 @@ html, body {
 }
 
 
-
-
-
-
 /*Link colors and cover colors*/
 .linku:link {
   color: #FF3D2D;
@@ -149,7 +145,7 @@ html, body {
   width: 25px;
   height: 25px;
   background: rgba(255, 255, 255, 0.4);
-  animation: animate 20s linear infinite;
+  animation: animate 7s linear infinite;
   bottom: -700px;
 }
 
