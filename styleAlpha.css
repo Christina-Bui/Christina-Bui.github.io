@@ -9,6 +9,10 @@ html, body {
 }
 
 
+
+
+
+
 /*Link colors and cover colors*/
 .linku:link {
   color: #FF3D2D;
@@ -1440,13 +1444,14 @@ label {
   .nav > .nav-btn > label:hover {
     background-color: rgba(0, 0, 0, 0.3);
     text-decoration: none;
+    transition: 1s;
   }
 
   .nav > .nav-btn > label > span {
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #FFFFFF;
+    border-top: 2px solid #2C2C2C;
     text-decoration: none;
   }
 
@@ -1454,7 +1459,7 @@ label {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #ffffff;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
