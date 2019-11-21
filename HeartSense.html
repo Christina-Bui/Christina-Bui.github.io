@@ -52,9 +52,9 @@
 	<div class = "Proj"></div>
 	<h2 class = "projTitle">HeartSense</h2>
 	
-	<h3 class="projTitleSmall3">Feminist science.</h3>
+	<h3 class="projTitleSmall3">No more lonely hearts.</h3>
 	
-	<h3 class = "projTitleSmall">Interaction Design | Physical Prototyping</h3>
+	<h3 class = "projTitleSmall">Interaction Design | Experience Design | Physical Prototyping</h3>
 
 	<h3 class = "projTitleSmall2">Project Team | <a class = "linku2" href="https://www.linkedin.com/in/aditya-anupam-85953897/" target = "_blank">Aditya Anupam</a> | <a class = "linku2" href="https://taepras.com/" target = "_blank">Thanawit Tae Prasongpongchai</a> | <a class = "linku2" href="http://www.shubhangigupta.org/" target = "_blank">Shubhangi Gupta</a> | <a class = "linku2" href="https://charlieden.wixsite.com/website" target = "_blank">Charlie Denton</a> | <a class = "linku2" href="https://www.linkedin.com/in/oliviacox1721/" target = "_blank">Olivia Cox</a> | <a class = "linku2" href="https://dainryoo.github.io/" target = "_blank">Da-In Ryoo</a></h3>
 	
@@ -63,7 +63,7 @@
 	
 	<h3 class = "projSection">Introduction</h3>
 
-	<p class = "projDesc3">For my Master's Thesis Project, I am researching feminism as it is applied to science. Specifically the standards of scientific and medical imaging. Both of these practices involve taking image data from the human body in a way that is reductive of the body and its experiences. People assume that these images are the "truth" of your body, that whatever you see in them is the end-all be-all. But this is not the case. Medical and scientific images go through a lot of subjective interpretation. HeartSense seeks to make people aware of these shortcomings and how we can use the technology used in medical and scientific imaging to depict the human body as a sensitive and complex being that is situated in the context of the world rather than as a source for data to be mined.</p>
+	<p class = "projDesc3">Cardiographs often depict the human heart in an isolated way. It helps medical professionals diagnose us, but it offers little in terms of understanding our own hearts. The heart is a social and sensitive organ, and it can be affected by other people an envionmental stimuli. Because of this, the goal of this research is to create a visualization which shows how the heart behaves in collective experiences.</p>
 
 	<p class = "projDesc3">This project is a continuation of previous work done by Dr. Nassim Parvin of Georgia Tech and other researchers within her research lab, the <a class = "linku3" href="http://designstudio.gatech.edu/" target = "_blank">Design & Social Interaction Studio</a>. Documentation of previous iterations of HeartSense can be found <a class = "linku3" href="http://heart.lmc.gatech.edu/" target = "_blank">here</a>.</p>
 	
@@ -71,44 +71,34 @@
 	
 	
 	
-	<h3 class = "projSection">The Idea</h3>
+	<h3 class = "projSection">Trails and Memory</h3>
 	
-	<p class = "projDesc3">My iteration of the project will take the form of a table where participants will collaboratively use their biometrics to create a projected visualization of their collective experience as they listen to music.</p>
+	<p class = "projDesc3">My iteration of the project will take the form of a table where participants will collaboratively use their biometrics to create a projected visualization of their collective experience as they listen to music. Each participant will get one quadrant of a circle of LEDs that will pulse along with their heart rate. As time passes on, their heart rate patterns will be passed on to the next inner ring, visualizing the change over time.</p>
 	
-	<img class = "projPic3" src="Images/Projects/HeartSense/HS 1.png">
+	<img class = "projPic3" src="Images/Projects/HeartSense/Shared Borders.jpg">
 	
-	<h3 class="projCap">A possible method of visualizing a collective experience.</h3>
-	
-	
-	
-	
-	<h3 class = "projSection">Senses and Sensors</h3>
-	
-	<p class = "projDesc3">We decided to develop our version of heart sense using the heart's interbeat interval (IBI) and GSR instead. This is mainly because of the addition of music as a design criteria. We found that the rate of change of individual heart beats would be relative to others in comparison to the beat of the music. In other words, when the beat of the music got faster, peoples' heart rates would increase and vice versa.</p>
-	
-	<img class = "projPic3" src="Images/Projects/HeartSense/white.gif">
-	
-	<h3 class="projCap">Changing together.</h3>
+	<h3 class="projCap">The brightness of the LEDs decreases with each ring.</h3>
 	
 	
 	
 	
 	
-	<h3 class = "projSection">Prototypes, Prototypes, Prototypes!</h3>
 	
-	<p class = "projDesc3">We spent a lot of time making different prototypes of what this experience could be. We played with different materials, forms, and configurations to find the most compelling one.</p>
+	<h3 class = "projSection">Building and Prototyping</h3>
 	
-	<img class = "projPic3" src="Images/Projects/HeartSense/garden.jpg">
+	<p class = "projDesc3">We used Arduino pulse sensors to capture heart rate data and a WS2812B LED strip for our lights. Since we are currently working on this project, we are striving towards adding the other two rings, using four Arduino boards to support up to four participants, and covering the LEDs with fabric so that the lights will diffuse.</p>
 	
-	<h3 class="projCap">Heart Garden.</h3>
+	<img class = "projPic3" src="Images/Projects/HeartSense/Arduino Circuit.jpg">
 	
-	<img class = "projPic3" src="Images/Projects/HeartSense/scarf.png">
+	<h3 class="projCap">A closeup of the Arduino circuit.</h3>
 	
-	<h3 class="projCap">Sense Scarf.</h3>
+	<img class = "projPic3" src="Images/Projects/HeartSense/HeartSense.jpg">
+	
+	<h3 class="projCap">Two users with synced up heart rates.</h3>
 
 	<img class = "projPic3" src="Images/Projects/HeartSense/circle.jpg">
 	
-	<h3 class="projCap">Sense Circle.</h3>
+	<h3 class="projCap">Non-humans can use HeartSense too!</h3>
 	
 
 
@@ -117,11 +107,11 @@
 	
 	<h3 class = "projSection">In the Works</h3>
 	
-	<p class = "projDesc3">A new idea we plan to prototype is the development of a "dance floor" that will be placed on a table top. Four robot "dancers" with markers as feet will make patterns on the surface of the dance floor by taking in participants' biometrics. If they sense that any participants' IBI is moving in a similar direction, they will dance together at the center of the dance floor.</p>
+	<p class = "projDesc3">The final form of HeartSense will have the three rings covered with fabric flowers to create an aesthetic experience about the interactions of embodiment, memory, and shared spaces.</p>
 	
-	<img class = "projPic3" src="Images/Projects/HeartSense/Potato 1.jpg">
-	
-	<h3 class="projCapEnd">Four friends having a good time.</h3>
+	<img class = "projPic3" src="Images/Projects/HeartSense/HS Final.jpg">
+
+	<h3 class="projCapEnd">The end goal: something like this, but glowing!</h3>
 	
 	
 
